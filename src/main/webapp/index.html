@@ -1,9 +1,10 @@
 <html>
 <body>
-	<h1>Home page</h1>
+	<h1>Tadhg's boolean test</h1>
 	<p>
-		Why don't you try one of hour webservice, such as <a href="rest/hello/world">Hello,
-			World</a> or <a href="rest/hello/name/Pierre">Hello $name</a>
+		Check the behaviour of booleans with JAX-RS and hibernate validator..
+		Post to http://localhost:8080/jaxrs-jersey-tomcat/booleans, like so:
 	</p>
+    <pre>curl -X POST http://localhost:8080/jaxrs-jersey-tomcat/booleans -H 'content-type: application/json' -d '{ "primitive": true, "object": true }'</pre>
 </body>
 </html>

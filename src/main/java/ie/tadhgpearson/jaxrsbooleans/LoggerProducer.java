@@ -1,4 +1,4 @@
-package net.pierreroudier.jaxrsjerseytomcat;
+package ie.tadhgpearson.jaxrsbooleans;
 
 import javax.enterprise.inject.Produces;
 import javax.enterprise.inject.spi.InjectionPoint;

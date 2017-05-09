@@ -5,7 +5,7 @@
 	<artifactId>jaxrs-jersey-tomcat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Base for a JaxRS project using Jersey and running on Tomcat</name>
+	<name>Testing booleans ina JaxRS project using Jersey and running on Tomcat</name>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -88,9 +88,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>commons-validator</groupId>
-			<artifactId>commons-validator</artifactId>
-			<version>1.5.1</version>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>5.4.1.Final</version>
 		</dependency>
 
 		<dependency>
